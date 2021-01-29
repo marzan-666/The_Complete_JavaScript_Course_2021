@@ -122,3 +122,34 @@ console.log(a, b);
 const averageAge = (ageJon + ageSara) / 2;
 console.log(ageJon, ageSara, averageAge);
 
+// Strings and Template Literals
+/*
+const firstName = 'Jonas';
+const job = 'teacher';
+const birthYear = 1991;
+const year = 2037;
+
+const jonas = "I'm " + firstName + ', a ' + (year - birthYear) + ' year old ' + job + '!';
+console.log(jonas);
+
+const jonasNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
+console.log(jonasNew);
+
+console.log(`Just a regular string...`);
+
+console.log('String with \n\
+multiple \n\
+lines');
+
+console.log(`String
+multiple
+lines`);
+
+console.log(`My name is marzan
+and i love to learn new things
+ok bye. . .`);
+
+const jon = `hello i am ${firstName}, ${year-birthYear} year old and i am a ${job}!!!`;
+console.log(jon);
+*/
+
