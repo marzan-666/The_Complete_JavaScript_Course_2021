@@ -152,4 +152,29 @@ ok bye. . .`);
 const jon = `hello i am ${firstName}, ${year-birthYear} year old and i am a ${job}!!!`;
 console.log(jon);
 */
+// Taking Decisions: if / else Statements
+const ages = 15;
 
+if (ages >= 18) {
+  console.log('Sarah can start driving license 🚗');
+} else {
+  const yearsLeft = 18 - ages;
+  console.log(`Sarah is too young. Wait another ${yearsLeft} years :)`);
+}
+
+const birthYeaR = 2012;
+
+let century;
+if (birthYeaR <= 2000) {
+  century = 20;
+} else {
+  century = 21;
+}
+console.log(century);
+
+const AGE = 20;
+if(AGE >=18){
+  console.log('Sarah can start driving license 🚗');
+}else{
+  console.log(`Sarah is too young. Wait another ${yearsLeft} years :)`)
+}
