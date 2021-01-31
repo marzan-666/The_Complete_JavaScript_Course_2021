@@ -3,7 +3,7 @@
 
 ///////////////////////////////////////
 // Activating Strict Mode
-/*
+
 let hasDriversLicense = false;
 const passTest = true;
 
@@ -157,7 +157,6 @@ const yearsUntilRetiremenT = function (birthYear, firstNamE) {
 
 console.log(yearsUntilRetiremenT(1991, 'Jonas'));
 console.log(yearsUntilRetiremenT(1950, 'Mike'));
-*/
 
 ///////////////////////////////////////
 // Coding Challenge #1
