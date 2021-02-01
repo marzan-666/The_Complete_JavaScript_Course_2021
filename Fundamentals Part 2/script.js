@@ -296,3 +296,8 @@ if(friends.includes('Marzan')){
 }else{
   console.log('No Friend found');
 }
+if (friends.includes('Bob')){
+  console.log('You have a friend called Bob')
+}else{
+  console.log('No Friend Found')
+}
