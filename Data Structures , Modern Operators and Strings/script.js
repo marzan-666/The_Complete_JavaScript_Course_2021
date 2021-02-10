@@ -1,6 +1,5 @@
 'use strict';
 /*
-///// Destructuring Arrays from line 
 
 const restaurant = {
   name: 'Classico Italiano',
