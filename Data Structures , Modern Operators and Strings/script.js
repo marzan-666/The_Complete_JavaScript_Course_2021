@@ -1144,3 +1144,18 @@ planesInline(5);
 planesInline(3);
 planesInline(12);
 */
+
+/*
+////// Spring Method Practice
+
+const getCode = str => str.slice(0,3).toUpperCase();
+
+const flights = '_Delayed_Departure;fdffdfderer54353;tx3434424;11:25+_Arrival;fdgg34344;fdsa43443;11:45+_Delayed_Arrival;fdf4545675;faas3434;12:05+_Departure;fasd123245567;lis4554566;12:30';
+
+for (const flight of flights.split('+')){
+  //console.log(flight);
+  const [type,from,to,time] = flight.split(';');
+  const output = `${type.startsWith('_Delayed') ? '🔴' : ''} ${type.replaceAll('_',' ')} ${getCode(from)} ${getCode(to)} (${time.replace(':','h')})`.padStart(36);
+  console.log(output);
+}
+*/
