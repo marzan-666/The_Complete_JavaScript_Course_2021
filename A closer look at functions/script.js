@@ -58,3 +58,36 @@ checkIn(flight,marzan);
 
 // JavaScript does not have passing by reference, it has only passing by value 
 */
+
+
+/*
+/// Fucnctions accepting callback functions
+
+const oneWord = function(str){
+    return str.replace(/ /g,'').toLowerCase();
+}
+
+const upperFirstWord = function(str){
+    const [first,...others] = str.split(' ');
+    return [first.toUpperCase(),...others].join(' ');
+}
+
+// Higher-Order function
+
+const transformer = function(str,fn){
+    console.log(`Original String: ${str}`)
+    console.log(`Transformed String: ${fn(str)}`);
+    //console.log(`Transformed by: ${fn}`);
+    console.log(`Transformed by: ${fn.name}`);
+}
+
+transformer('JavaScript is the best',upperFirstWord);
+transformer('JavaScript is the best',oneWord);
+
+const high5 = function(){
+    console.log('👋');
+}
+
+document.body.addEventListener('click',high5);
+//['Marzan','Natalie','Kate'].forEach(high5);
+*/
