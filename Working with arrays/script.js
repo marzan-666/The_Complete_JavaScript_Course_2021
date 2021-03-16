@@ -153,3 +153,25 @@ movements.forEach(function(mov,i,arr){
 //1: function(450)
 //2: function(400)
 */
+
+/*
+// forEach with Maps and Sets
+
+const currencies = new Map([
+  ['USD', 'United States dollar'],
+  ['EUR', 'Euro'],
+  ['GBP', 'Pound sterling'],
+]);
+
+currencies.forEach(function(value,key,map){
+  console.log(`${key}: ${value}`);
+});
+
+//Set
+const currenciesUnique = new Set(['USD','GBP','USD','EUR','EUR']);
+
+console.log(currenciesUnique);
+currenciesUnique.forEach(function(value,key,map){
+  console.log(`${key}: ${value}`);
+});
+*/
