@@ -467,3 +467,41 @@ console.log(movements);
 movements.sort((a,b)=>b-a);
 console.log(movements);
 */
+
+/*
+////
+// More ways of creating and filling Arrays
+const arr = [1,2,3,4,5,6,7];
+console.log([1,2,3,4,5,6,7]);
+console.log(new Array(1,2,3,4,5,6,7));
+
+// Empty arrays + fill method
+const x = new Array(7);
+console.log(x);
+//console.log(x.map(()=>5));
+x.fill(1,3);
+
+console.log(x);
+x.fill(1,3,5);
+console.log(x);
+
+arr.fill(23,2,6);
+console.log(arr);
+
+// Array.from
+
+const y = Array.from({length: 7},() => 1);
+console.log(y);
+
+const z = Array.from({length: 7}, (cur,i)=> i+1);
+console.log(z);
+
+
+
+
+// labelBalance.addEventListener('click',function(){
+//   const movementUI = Array.from(document.querySelectorAll('.movements__value'));
+//   console.log(movementUI);
+
+// });
+*/
