@@ -251,7 +251,7 @@ btnSort.addEventListener('click', function (e) {
 /////////////////////////////////////////////////
 /////////////////////////////////////////////////
 // LECTURES
-
+/*
 /// Converting and checking number
 ///////
 console.log(23 === 23.0);
@@ -359,3 +359,4 @@ labelBalance.addEventListener('click',function(){
     if (i % 3 === 0) row.style.backgroundColor = 'blue';
   });
 });
+*/
