@@ -360,3 +360,41 @@ labelBalance.addEventListener('click',function(){
   });
 });
 */
+// Working with BigInt
+////////
+/*
+console.log(2 ** 53 - 1);
+console.log(Number.MAX_SAFE_INTEGER);
+console.log(2 ** 53 + 1);
+console.log(2 ** 53 + 2);
+console.log(2 ** 53 + 3);
+console.log(2 ** 53 + 4);
+
+console.log(3344545455654656654656546);
+console.log(3344545455654656654656546n);
+console.log(BigInt(3344545455654656654656546));
+
+//// Operations
+
+console.log(10000n + 10000n); 
+console.log(34344444344343243434432344n + 434344554545454354355n);
+
+
+const huge = 2022232334343434342344n;
+const num = 23;
+console.log(huge * BigInt(num));
+
+console.log(20n>15);
+console.log(20n === 20);
+console.log(typeof 20n);
+console.log(20n == 20);
+console.log(20n == '20');
+
+console.log(huge+ ' is really big!!!');
+
+//Divisions
+
+console.log (10n / 3n);
+console.log (11n / 3n);
+console.log(10 / 3);
+*/
